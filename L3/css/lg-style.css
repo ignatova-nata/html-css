@@ -1,0 +1,67 @@
+.nav-menu {
+     display: flex;
+     align-items: center;
+     flex-wrap: wrap;
+     max-width: 1500px;
+     margin: 0 auto;
+     }
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+.nav-menu a,
+.read a {
+ display: block;
+ text-align: center;
+ height: 100%;
+ text-decoration: none;
+ padding: 20px;
+ color: green;
+ }
+
+
+body {
+        background-image: url(../img/Desert.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: auto;
+        }
+.article {
+    background:rgba(215,215,215,0.5);
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+    padding: 5px;
+    width: 700px;
+    }
+.article img {
+    width: 60%;
+    height: auto;
+}
+.author a{
+    color: black;
+    background: darkgray;
+}
+q {
+    display: block;
+}
+.read {
+     width: 200px;
+     height: 50px;
+     background: gray;
+     margin: 5px;
+     padding: 0;
+     border: 1px solid black;
+     border-radius: 5px;
+ }
+ .menu {
+      width: 250px;
+      height: 50px;
+      background:rgba(134,104,186,0.8);
+      margin: 5px;
+      padding: 0;
+      border: 1px solid green;
+      border-radius: 5px;
+  }
